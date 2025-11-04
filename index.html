@@ -1,0 +1,72 @@
+<!--
+Autorr: Rodrigo Alejandro Hurtado Cortes - A01713854
+Titulo: Tarea 4 - HTML + CSS + JS    
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wolverine Movements - MVC2</title>
+</head>
+<body>
+    
+    <!--Jumbotron - Nombre del Personaje-->
+    <div class="container-fluid mt-4 p-2 bg-warning d-flex justify-content-center">
+        <img id="logo_image" src="img/logo.png">
+        <br>
+        <h1 id="titulo">Wolverine</h1>
+    </div>
+
+    <!--Tarjeta principal - Personaje y Fondo-->
+    <div class="d-flex justify-content-center align-items-center sour-gummy-font">
+        <div class="card p-2 float-start tarjeta">
+            <img id="fondo" src="img/fondo_1.png" class="border border-4 border-danger" alt="card-img-top">
+            <img id="personaje" src="img/w_i.png" class="top" alt="card-img-top">
+        </div>
+    </div>
+
+    <!--Tablero de control (almacenamiento de los botones)-->
+    <div class="row bg-dark tablero">
+        
+        <!--Boton Amarillo - Wolverine 1, Fondo 1-->
+        <div class="col text-center">
+            <button onclick="yellow_button()" class="btn bg-warning text-black btn-outline-dark rounded-circle button_retro">
+                <img class = "button_image" src="img/w_1.png">
+            </a>
+        </div>
+
+        <!--Boton Azul - Wolverine 2, Fondo 2-->
+        <div class="col text-center">
+            <button onclick="blue_button()" class="btn bg-primary text-black btn-outline-dark rounded-circle button_retro">
+                <img class = "button_image" src="img/w_2.png">
+            </a>
+        </div> 
+
+        <!--Boton Rojo - Wolverine 3, Fondo 3-->
+        <div class="col text-center">
+            <button onclick="red_button()" class="btn bg-danger text-black btn-outline-dark rounded-circle button_retro">
+                <img class = "button_image" src="img/w_3.png">
+            </a>
+        </div>
+
+        <!--Boton Verde - Wolverine 4, Fondo 4-->
+        <div class="col text-center">
+            <button onclick="green_button()" class="btn bg-success text-black btn-outline-dark rounded-circle button_retro">
+                <img  class = "button_image" src="img/w_4.png">
+            </a>
+        </div>
+    </div>
+
+    <div class="text-center jersey-10-regular">
+        <p>Created by: Rodrigo Alejandro Hurtado Cortés - A01713854</p>
+    </div>
+</body>
+</html>

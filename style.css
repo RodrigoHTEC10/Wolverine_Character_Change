@@ -1,0 +1,44 @@
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.top {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    z-index: 1;
+}
+
+.button_retro{
+    width: 150px; 
+    height: 150px;
+}
+
+.button_image{
+    width: 75px;
+}
+
+.tablero{
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+
+.tarjeta{
+    width:400px; 
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+#logo_image{
+    width: 35%;
+}
+
+#titulo{
+    visibility: hidden;
+    font-size: 0px;
+}
+
